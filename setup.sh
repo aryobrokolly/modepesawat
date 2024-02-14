@@ -30,9 +30,9 @@ download_files()
 	mkdir $DIR
     	touch $DIR/log.txt
   	echo "Downloading files from https://raw.githubusercontent.com/aryobrokolly/modepesawatmodem ..."
-   	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/hp/modpeshp.sh -O $DIR/modpeshp.sh && chmod +x $DIR/modpeshp.sh
- 	  wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/hp/menuhp.sh -O $DIR/menuhp.sh && chmod +x $DIR/menuhp.sh
-    wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/hp/modemrakitan.sh -O $DIR/modemrakitan.sh && chmod +x $DIR/modemrakitan.sh
+   	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modpeshp -O $DIR/modpeshp && chmod +x $DIR/modpeshp
+ 	  wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/menuhp -O $DIR/menuhp && chmod +x $DIR/menuhp
+    wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modemrakitan -O $DIR/modemrakitan && chmod +x $DIR/modemrakitan
     	finish
 }
 
