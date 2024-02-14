@@ -13,7 +13,7 @@ SERVICE_NAME="modemhp"
 
 ganti_ip() {
     ipsekarang=$(adb shell ip -f inet addr show rmnet0 | awk '/inet / {print $2}' | cut -d'/' -f1)
-    echo "IP Address HP dulur sedurunge ${ipsekarang}"
+    echo "Your ip addres now: ${ipsekarang}"
     adb shell settings put global airplane_mode_on 1
     adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state true > /dev/null
     echo "Mode Airplane Active"
