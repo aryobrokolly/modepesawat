@@ -79,7 +79,7 @@ function usage() {
     cat <<EOF
 Perintah yang anda masukan salah.
 Masukan perintah sesuai keterangan berikut:
-   menuhp reboot    untuk restart atau reboot
+   modemhp reboot    untuk restart atau reboot
 EOF
 }
 
@@ -147,11 +147,11 @@ echo -e "$DB **************************************************"
 echo -e "$DB **$Y           PILIH OPSI YANG TERSEDIA           $DB**"
 echo -e "$DB **************************************************"
 echo -e "$DB **$G DAFTAR :                  * PERINTAH :       $DB**"
-echo -e "$DB **$G Ganti IP Address          * menuhp ganti_ip   $DB**"
-echo -e "$DB **$G Cek IP Address            * menuhp cek_ip     $DB**"
-echo -e "$DB **$G Lihat 4 SMS terbaru       * menuhp cek_sms    $DB**"
-echo -e "$DB **$G Hapus semua SMS           * menuhp hapus_sms  $DB**"
-echo -e "$DB **$G Restart/reboot            * menuhp reboot     $DB**"
+echo -e "$DB **$G Ganti IP Address          * modemhp ganti_ip   $DB**"
+echo -e "$DB **$G Cek IP Address            * modemhp cek_ip     $DB**"
+echo -e "$DB **$G Lihat 4 SMS terbaru       * modemhp cek_sms    $DB**"
+echo -e "$DB **$G Hapus semua SMS           * modemhp hapus_sms  $DB**"
+echo -e "$DB **$G Restart/reboot            * modemhp reboot     $DB**"
 echo -e "$DB **$G KELUAR DARI MENU          * exit             $DB**"
 echo -e "$DB **************************************************"
 echo -e "$W"
