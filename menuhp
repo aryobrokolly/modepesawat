@@ -8,7 +8,7 @@ fi
 
 clear
 
-SERVICE_NAME="menuhp"
+SERVICE_NAME="modemhp"
 
 ganti_ip() {
     ipsekarang=$(adb shell ip -f inet addr show rmnet0 | awk '/inet / {print $2}' | cut -d'/' -f1)
