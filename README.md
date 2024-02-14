@@ -4,7 +4,8 @@
 - ***Modem Dell DW5821E***
 - ***HP Xiaomi Redmi Note 11 Pro***
 
-- Instalation Script :
+Script ini di adopsi dari teman-teman di grup
+- Run installation script:
 ```
 bash -c "$(curl -sko - 'https://raw.githubusercontent.com/aryobrokolly/modepesmodem/master/setup.sh')"
 ```
