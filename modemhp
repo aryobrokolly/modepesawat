@@ -15,24 +15,24 @@ ganti_ip() {
     echo "IP Address HP dulur sedurunge ${ipsekarang}"
     adb shell settings put global airplane_mode_on 1
     adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state true > /dev/null
-    echo "Mode Kapal Mabur Aktif"
+    echo "Mode Airplane Active"
     sleep 3
     adb shell settings put global airplane_mode_on 0
     adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false > /dev/null
-    echo "Mode Kapal Nyungsep"
+    echo "Mode Airplane Nyungsep Active"
     sleep 8
     ipbaru=$(adb shell ip -f inet addr show rmnet0 | awk '/inet / {print $2}' | cut -d'/' -f1)
-    echo "IP Address HP dulur ${ipbaru}"
+    echo "New ip address: ${ipbaru}"
 }
 
 cek_ip() {
     ipsekarang=$(adb shell ip -f inet addr show rmnet0 | awk '/inet / {print $2}' | cut -d'/' -f1)
-    echo "IP Address HP dulur ${ipsekarang}"
+    echo "Your ip address now: ${ipsekarang}"
 }
 
 cek_sms() {
     if adb shell su -c "content query --uri content://sms --projection _id,address,body,date" | head -n 1 2>&1 | grep -q "No result found."; then
-        echo "Kotak amal kosong"
+        echo "SmS ZONK"
     else
         convert_timestamp() {
         local timestamp=$1
@@ -63,16 +63,16 @@ cek_sms() {
 
 hapus_sms() {
     if adb shell su -c "content query --uri content://sms --projection _id,address,body,date" | head -n 1 2>&1 | grep -q "No result found."; then
-        echo "Kotak amal kosong"
+        echo "SmS ZONK"
     else
         adb shell su -c "pm clear com.android.providers.telephony"
-        echo "Kabeh isi kotak amal di gondol sawise reboot"
+        echo "SmS deleting progres and reboot"
     fi
 }
 
 reboot() {
     adb reboot devices
-    echo "HP ne modar mending tuku anyar"
+    echo "Your Phone Reboot"
 }
 
 function usage() {
