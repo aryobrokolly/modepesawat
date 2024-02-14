@@ -10,4 +10,6 @@ Script ini di adopsi dari teman-teman di grup
 bash -c "$(curl -sko - 'https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/setup.sh')"
 ```
 
-- TESTING
+# Thank to
+- AIS
+- helmiarimbawa
