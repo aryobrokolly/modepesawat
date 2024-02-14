@@ -7,7 +7,7 @@
 Script ini di adopsi dari teman-teman di grup
 - Run installation script:
 ```
-bash -c "$(curl -sko - 'https://raw.githubusercontent.com/aryobrokolly/modepesmodem/master/setup.sh')"
+bash -c "$(curl -sko - 'https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/setup.sh')"
 ```
 
 - TESTING
