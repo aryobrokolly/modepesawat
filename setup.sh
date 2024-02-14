@@ -5,9 +5,8 @@ DIR=/usr/bin
 
 install_netcat()
 {
-	echo "Installing netcat (opkg install netcat) ..."
+	echo "Installing update (opkg update) ..."
     opkg -V0 update
-    opkg -V0 install netcat
 }
 
 finish(){
