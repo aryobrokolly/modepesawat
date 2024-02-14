@@ -36,10 +36,10 @@ download_files()
 }
 
 echo ""
-echo "AIS-SCRIPT MODE PESAWAT mod by ARYO."
+echo "Aryo Install Script code."
 
 while true; do
-    read -p "This will install netcat as a prerequisite. Do you want to continue (y/n)? " yn
+    read -p "This will update as a prerequisite. Do you want to continue (y/n)? " yn
     case $yn in
         [Yy]* ) install_netcat; break;;
         [Nn]* ) exit;;
