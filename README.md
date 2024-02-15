@@ -4,7 +4,7 @@
 - ***Modem Dell DW5821E***
 - ***HP Samsung***
 
-
+# Cara Install dan petunjuk penggunaan
 - Run installation script:
 ```
 bash -c "$(curl -sko - 'https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/setup.sh')"
