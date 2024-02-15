@@ -25,7 +25,8 @@ code here
   <br>***Untuk menggunakan menu modemhp, hpmu wajib usb debugging aktif***
 - pilih perintah berupa angka sesuai petunjuk yang tampil di terminal openwrt mu
 
-  ***MODEM RAKITAN***
+
+***MODEM RAKITAN***
 - ketik modemrakitan pada terminal
   <br>***untuk menjalankan perintah secara manual***
 - untuk menjalankan mode pesawat otomatis pada openwrt bisa menggunakan bled (b860h) atau hgled (hg680p)
