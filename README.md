@@ -21,8 +21,8 @@ code here
 ```
 # Petunjuk penggunaan
   ***MODEM HP***
-- ketik menuhp di terminal
-  <br>***Untuk menggunakan menuhp, hp mu wajib usb debugging aktif***
+- ketik ***modemhp*** di terminal
+  <br>***Untuk menggunakan menu modemhp, hpmu wajib usb debugging aktif***
 - pilih perintah berupa angka sesuai petunjuk yang tampil di terminal openwrt mu
 
   ***MODEM RAKITAN***
