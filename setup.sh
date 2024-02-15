@@ -5,7 +5,7 @@ DIR=/usr/bin
 
 install_netcat()
 {
-	echo "Installing update (opkg update) ..."
+	echo "Update (opkg update) ..."
     opkg -V0 update
 }
 
@@ -28,10 +28,10 @@ download_files()
 	DIR=/usr/bin
 	mkdir $DIR
     	touch $DIR/log.txt
-  	echo "Downloading files from https://raw.githubusercontent.com/aryobrokolly/modepesawatmodem ..."
+  	echo "Downloading files from https://raw.githubusercontent.com/aryobrokolly/modepesawat ..."
    	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modpeshp -O $DIR/modpeshp && chmod +x $DIR/modpeshp
- 	  wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/menuhp -O $DIR/menuhp && chmod +x $DIR/menuhp
-    wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modemrakitan -O $DIR/modemrakitan && chmod +x $DIR/modemrakitan
+ 	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/menuhp -O $DIR/menuhp && chmod +x $DIR/menuhp
+    	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modemrakitan -O $DIR/modemrakitan && chmod +x $DIR/modemrakitan
     	finish
 }
 
@@ -50,7 +50,7 @@ done
 echo ""
 
 while true; do
-    read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
+    read -p "This will download the files ais sia into $DIR. Do you want to continue (y/n)? " yn
     case $yn in
         [Yy]* ) download_files; break;;
         [Nn]* ) exit;;
