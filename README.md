@@ -2,7 +2,7 @@
 
 # TESTED
 - ***Modem Dell DW5821E***
-- ***HP Xiaomi Redmi Note 11 Pro***
+- ***HP Samsung***
 
 
 - Run installation script:
@@ -15,10 +15,22 @@ Unduh bled (B860H v1/v2)
 code here
 ```
 
-Unduh bled (HG680-P Ram 2GB)
+Unduh hgled (HG680-P Ram 2GB)
 ```
 code here
 ```
+# Petunjuk penggunaan
+  ***MODEM HP***
+- ketik menuhp di terminal
+  <br>***Untuk menggunakan menuhp, hp mu wajib usb debugging aktif***
+- pilih perintah berupa angka sesuai petunjuk yang tampil di terminal openwrt mu
+
+  ***MODEM RAKITAN***
+- ketik modemrakitan pada terminal
+  <br>***untuk menjalankan perintah secara manual***
+- untuk menjalankan mode pesawat otomatis pada openwrt bisa menggunakan bled (b860h) atau hgled (hg680p)
+- atau bisa menggunakan conn monitor pada stb-reyre
+
 
 # Thank to
 - ais sia
