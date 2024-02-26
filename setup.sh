@@ -26,7 +26,6 @@ finish(){
 download_files()
 {
 	DIR=/usr/bin
-	mkdir $DIR
     	touch $DIR/log.txt
   	echo "Downloading files from https://raw.githubusercontent.com/aryobrokolly/modepesawat ..."
    	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modpeshp -O $DIR/modpeshp && chmod +x $DIR/modpeshp
