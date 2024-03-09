@@ -12,7 +12,7 @@ bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/modepesawa
 
 Unduh bled (B860H v1/v2)
 ```
-code here
+rm -f /usr/bin/bled wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled
 ```
 
 Unduh hgled (HG680-P Ram 2GB)
