@@ -21,9 +21,9 @@ rm -f /usr/bin/hgled wget -O /usr/bin/hgled https://raw.githubusercontent.com/ar
 ```
 # Petunjuk penggunaan
   ***MODEM HP***
-- ketik ***modemhp*** di terminal
+* ketik ***modemhp*** di terminal
   <br>***Untuk menggunakan menu modemhp, hpmu wajib usb debugging aktif***
-- pilih perintah berupa angka sesuai petunjuk yang tampil di terminal openwrt mu
+* pilih perintah berupa angka sesuai petunjuk yang tampil di terminal openwrt mu
 
 
 ***MODEM RAKITAN***
