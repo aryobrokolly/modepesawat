@@ -7,7 +7,7 @@
 # Cara Install dan petunjuk penggunaan
 - Run installation script:
 ```
-bash -c "$(curl -sko - 'https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/setup.sh')"
+bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/setup.sh')"
 ```
 
 Unduh bled (B860H v1/v2)
