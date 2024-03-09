@@ -12,12 +12,12 @@ bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/modepesawa
 
 Unduh bled (B860H v1/v2)
 ```
-rm -f /usr/bin/bled wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled
+rm -f /usr/bin/bled wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/modepesawat/main/bled-hgled/bled && chmod +x /usr/bin/bled
 ```
 
 Unduh hgled (HG680-P Ram 2GB)
 ```
-rm -f /usr/bin/hgled wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/hgled && chmod +x /usr/bin/hgled
+rm -f /usr/bin/hgled wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/modepesawat/main/bled-hgled/hgled && chmod +x /usr/bin/hgled
 ```
 # Petunjuk penggunaan
   ***MODEM HP***
