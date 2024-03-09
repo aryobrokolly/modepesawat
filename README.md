@@ -1,8 +1,8 @@
 # SCRIPT AUTO GANTI IP MODEM RAKITAN DAN HP
 
 # TESTED
-- ***Modem Dell DW5821E***
-- ***HP Samsung***
+- ***Modem Dell DW5821E (rakitan)***
+- ***HP Samsung (hp)***
 
 # Cara Install dan petunjuk penggunaan
 - Run installation script:
