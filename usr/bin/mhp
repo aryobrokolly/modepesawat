@@ -68,7 +68,7 @@ ipbaru2=$(adb shell ip -f inet addr show rmnet_data1 | awk '/inet / {print $2}' 
 echo -e "IP Address Modem HP sekarang ${ipbaru1}${ipbaru2}"
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 2) clear ;
@@ -81,7 +81,7 @@ ipsekarang2=$(adb shell ip -f inet addr show rmnet_data1 | awk '/inet / {print $
 echo -e "IP Address Modem HP ${ipsekarang1}${ipsekarang2}"
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 3) clear ;
@@ -94,7 +94,7 @@ ipsekarang2=$(adb shell ip -f inet addr show usb0 | awk '/inet / {print $2}' | c
 echo -e "IP Remote & Port Modem HP ${ipsekarang1}${ipsekarang2}:5555"
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 4) clear ;
@@ -133,7 +133,7 @@ else
 fi
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 5) clear ;
@@ -153,7 +153,7 @@ echo -e
 echo -e Done.....
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 6) clear ;
@@ -164,7 +164,7 @@ clear
 adb shell dumpsys battery
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 7) clear ;
@@ -176,7 +176,7 @@ noseri=$(adb get-serialno)
 echo -e "Nomor Serial Anda ${noseri}"
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 8) clear ;
@@ -189,9 +189,9 @@ echo -e
 echo -e Done.....
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
-/usr/bin/hp
+/usr/bin/mhp
  ;;
 
 x) exit ;;
-*) echo "Anda salah tekan " ; sleep 1 ; /usr/bin/hp ;;
+*) echo "Anda salah tekan " ; sleep 1 ; /usr/bin/mhp ;;
 esac
