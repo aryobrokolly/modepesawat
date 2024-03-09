@@ -3,60 +3,36 @@
 
 DIR=/usr/bin
 
-install_netcat()
-{
-	echo "Update (opkg update) ..."
-    opkg -V0 update
-}
 
 finish(){
+clear
 	echo ""
     echo "INSTALL SUCCESSFULLY ;)"
-#    echo "There are 2 important steps to finish this setup:"
-#    echo ""
-#    echo "1. Make sure this line is in the cron. To open the cron editor, run: crontab -e"
-#    echo "   */2 * * * * $DIR/wwan-keep-alive.sh"
-#    echo ""  
-#    echo "2. The interface representing the LTE connection is set to 'wwan0'."
-#    echo "   To change the interface, please edit the line INTERFACE='wwan0' in the 'restart-interface.sh'."
     echo ""
-    echo "Enjoy!"
+    echo "Untuk Menjalankan Ketik m dan enter di terminal"
+    sleep 3
+    echo ""
+    echo "SALAM SEDULURAN"
+    echo ""
+    echo ""
 }
 
 download_files()
 {
-	DIR=/usr/bin
-    	touch $DIR/log.txt
-  	echo "Downloading files from https://raw.githubusercontent.com/aryobrokolly/modepesawat ..."
-   	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modpeshp -O $DIR/modpeshp && chmod +x $DIR/modpeshp
- 	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/menuhp -O $DIR/menuhp && chmod +x $DIR/menuhp
-    	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/modepesawat/master/modemrakitan -O $DIR/modemrakitan && chmod +x $DIR/modemrakitan
+    	clear
+  	echo "Downloading files from repo ModemHP Aryo brokolly..."
+   	wget -O $DIR/mhp https://raw.githubusercontent.com/aryobrokolly/modepesawat/main/usr/bin/mhp && chmod +x $DIR/mhp
     	finish
 }
 
 echo ""
-echo "Aryo Install Script code."
+echo "Install Script code from repo aryo."
 
 while true; do
-    read -p "This will update as a prerequisite. Do you want to continue (y/n)? " yn
-    case $yn in
-        [Yy]* ) install_netcat; break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer 'y' or 'n'.";;
-    esac
-done
-
-echo ""
-
-while true; do
-    read -p "This will download the files ais sia into $DIR. Do you want to continue (y/n)? " yn
+    read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
     case $yn in
         [Yy]* ) download_files; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer 'y' or 'n'.";;
     esac
 done
-
-
-
-
