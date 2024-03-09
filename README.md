@@ -17,7 +17,7 @@ rm -f /usr/bin/bled wget -O /usr/bin/bled https://raw.githubusercontent.com/aryo
 
 Unduh hgled (HG680-P Ram 2GB)
 ```
-code here
+rm -f /usr/bin/hgled wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/hgled && chmod +x /usr/bin/hgled
 ```
 # Petunjuk penggunaan
   ***MODEM HP***
