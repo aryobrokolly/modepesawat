@@ -35,7 +35,6 @@ rm -f /usr/bin/hgled wget -O /usr/bin/hgled https://raw.githubusercontent.com/ar
 
 # Thank to
 - ais sia
-- helmiarimbawa
 - me
 <br><br>
 # Donasi Seiklasnya
