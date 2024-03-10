@@ -1,3 +1,6 @@
+#!/bin/bash
+#Script by ais sia
+#Upload by Aryo Brokolly
 clear
 #-- colors --#
 #R='\e[1;31m' #RED
