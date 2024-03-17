@@ -9,7 +9,7 @@ clear
 	echo ""
     echo "INSTALL SUCCESSFULLY ;)"
     echo ""
-    echo "Untuk Menjalankan Ketik m dan enter di terminal"
+    echo "Untuk Menjalankan Ketik mhp dan enter di terminal"
     sleep 3
     echo ""
     echo "SALAM SEDULURAN"
