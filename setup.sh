@@ -20,7 +20,7 @@ clear
 download_files()
 {
     	clear
-  	echo "Downloading files from repo ModemHP Aryo brokolly..."
+  	echo "Downloading files from repo ModemHP..."
    	wget -O $DIR/mhp https://raw.githubusercontent.com/aryobrokolly/modepesawat/main/usr/bin/mhp && chmod +x $DIR/mhp
     	finish
 }
