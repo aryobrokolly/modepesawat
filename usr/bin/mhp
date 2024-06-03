@@ -1,6 +1,6 @@
 #!/bin/bash
 #Script by ais sia
-#Upload by Aryo Brokolly
+#Upload by mustofa
 clear
 #-- colors --#
 #R='\e[1;31m' #RED
@@ -28,14 +28,14 @@ BP='\e[3;35m' #PURPLE
 BLB='\e[3;36m' #LIGHTBLUE
 
 echo -e "$DB **************************************************"
-echo -e " **                                              **"
-echo -e "$DB **$R          SELAMAT DATANG DULUR DULUR          $DB**"
-echo -e " **                                              **"
+echo -e " **                                                    **"
+echo -e "$DB **$R          SELAMAT DATANG di menu kami          $DB**"
+echo -e " **                                                    **"
 echo -e "$DB **************************************************"
 echo -e "$DB **$Y           PILIH OPSI YANG TERSEDIA           $DB**"
 echo -e "$DB **************************************************"
 echo -e "$DB **$G DAFTAR :                                     $DB**"
-echo -e "$DB **$G [\e[36m•1\e[0m$G] Ganti IP Address                        $DB**"
+echo -e "$DB **$G [\e[36m•1\e[0m$G] Lock all band                           $DB**"
 echo -e "$DB **$G [\e[36m•2\e[0m$G] Cek IP Address                          $DB**"
 echo -e "$DB **$G [\e[36m•3\e[0m$G] Cek IP Remote & port                    $DB**"
 echo -e "$DB **$G [\e[36m•4\e[0m$G] Lihat 4 SMS terbaru                     $DB**"
