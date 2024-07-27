@@ -39,5 +39,5 @@ rm -f /usr/bin/hgled wget -O /usr/bin/hgled https://raw.githubusercontent.com/ar
 <br><br>
 # Donasi Seiklasnya
 - ***Monggo Donasi Seiklasnya apresiasi script ini***
-<img src="https://github.com/aryobrokolly/XRAY-MPORT/blob/26495331210caf0380909a4478a7b3721e04124c/img/qris.jpg" alt="DONASI" width="350" height="470">
+<img src="\https://raw.githubusercontent.com/aryobrokolly/modepesawat/main/barcode-aryobrokolly.jpg" alt="DONASI" width="350" height="470">
 
